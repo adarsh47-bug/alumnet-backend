@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'https://your-frontend-static-web-app.azurestaticapps.net', // Replace with your frontend domain
+  origin: 'https://alumni-platform-backend-master-boom.vercel.app/', // Replace with your frontend domain
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
